@@ -196,7 +196,7 @@
       minPopularity: 0
     };
 
-    d3.json("/data/graph.json").then(data => {
+    d3.json("graph.json").then(data => {
       // Store original data
       allNodes = data.nodes;
       allLinks = data.links;
